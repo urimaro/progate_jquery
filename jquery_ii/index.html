@@ -18,7 +18,17 @@
       </div>
     </div>
   </header>
-  <div class="signup-modal-wrapper">
+  <div id="signup-modal" class="signup-modal-wrapper">
+    <div class="modal">
+      <div id="signup-form">
+        <h2>Emailで新規登録</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">新規登録</div>
+        </form>
+      </div>
+    </div>
   </div>
   <div id="login-modal" class="login-modal-wrapper">
     <div class="modal">
@@ -36,7 +46,7 @@
     <div class="container">
       <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
       <p>progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn signup">新規登録はこちら</div>
+      <div class="btn signup signup-show">新規登録はこちら</div>
       <p>or</p>
       <div class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</div>
       <div class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</div>
@@ -66,7 +76,7 @@
         <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
         <h3 id="tagline">Let's learn to code, learn to be creative!</h3>
       </div>
-      <div class="btn message">さっそく開発する</div>
+      <div class="btn message signup-show">さっそく開発する</div>
     </div>
   </div>
   <footer>

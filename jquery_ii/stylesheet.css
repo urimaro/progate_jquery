@@ -99,7 +99,7 @@ header {
 }
 
 /* モーダル */
-.login-modal-wrapper {
+.login-modal-wrapper, .signup-modal-wrapper {
   position: fixed;
   top: 0;
   right: 0;
