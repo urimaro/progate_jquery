@@ -20,10 +20,10 @@
   </header>
 
   <!-- モーダル部分 -->
-  <div class="signup-modal-wrapper">
+  <div id="signup-modal" class="signup-modal-wrapper">
     <div class="modal">
       <div>
-        <i class="fa fa-2x fa-times"></i>
+        <i id="close-modal" class="fa fa-2x fa-times"></i>
       </div>
       <div id="signup-form">
         <h2>Emailで新規登録</h2>
@@ -42,7 +42,7 @@
       <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
       <p>progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
       <!-- 新規登録ボタン -->
-      <div class="btn signup">新規登録はこちら</div>
+      <div class="btn signup signup-show">新規登録はこちら</div>
       <p>or</p>
       <div class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</div>
       <div class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</div>
@@ -73,7 +73,7 @@
         <h3 id="tagline">Let's learn to code, learn to be creative!</h3>
       </div>
       <!-- 新規登録ボタン -->
-      <span class="btn message">さっそく開発する</span>
+      <span class="btn message signup-show">さっそく開発する</span>
     </div>
   </div>
   <footer>
