@@ -1,5 +1,6 @@
 $(function() {
-  $('#hide-btn').click(function() {
-    $('.slide').eq(1).fadeOut();
+  $('#second-btn').click(function() {
+    $('.active').removeClass('active');
+    $('.slide').eq(1).addClass('active');
   });
 });
