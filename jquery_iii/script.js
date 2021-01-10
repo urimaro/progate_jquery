@@ -1,6 +1,9 @@
 $(function() {
-  $('#second-btn').click(function() {
+  $('.index-btn').click(function() {
     $('.active').removeClass('active');
-    $('.slide').eq(1).addClass('active');
+
+    var clickedIndex = $('.index-btn').index($(this));
+
+    $('.slide').eq(clickedIndex).addClass('active');
   });
 });
