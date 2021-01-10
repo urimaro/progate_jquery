@@ -203,6 +203,10 @@ header {
   display: none;
 }
 
+.text-active {
+  display: block;
+}
+
 /*faq wrapper*/
 .faq-wrapper {
   background-color: #e6ecf0;
