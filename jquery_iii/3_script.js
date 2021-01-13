@@ -16,6 +16,9 @@ $(function() {
 
   $('.option-btn').click(function() {
     var optionText = $(this).text();
+    var clickedOption = $(this).attr('data-option');
+
     $('#text-form').val(optionText + 'が好きな理由は、');
+    $('#select-form').val(clickedOption);
   });
 });
